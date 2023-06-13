@@ -4,6 +4,7 @@ This Sample code is used to send a simple message to Azure IoT Hub from Raspberr
 ## Running the Python Code on Raspberry Pi
 
 ### Prerequisites
+- Create [IoT Hub](https://youtu.be/dMa-gjzV-3M) and [IoT Hub Device](https://youtu.be/7kJom1CDaYs) in Azure. Follow the steps in Youtube if not created.
 
 - Python 3: Raspberry Pi typically comes with Python pre-installed, but you can ensure you have Python 3 installed by running the following command in the terminal:
 
@@ -41,7 +42,8 @@ This Sample code is used to send a simple message to Azure IoT Hub from Raspberr
 - Open a terminal on your Raspberry Pi.
 
 - Navigate to the directory where you saved the Python file.
-
+- Before running the code,You should use the Azure IoT Explorer to monitor the data received at the IoT Hub.
+- To configure the Azure IoT Explorer, look into the steps mentioned [here](https://github.com/Azure/azure-iot-explorer)
 - Run the following command to start running the Python code:
 
     ```
@@ -49,8 +51,6 @@ This Sample code is used to send a simple message to Azure IoT Hub from Raspberr
     ```
 
 - The code will now start sending a simple message to your Azure IoT Hub device. You should see the message being printed on the console.
-- You should use the Azure IoT Explorer to monitor the data received at the IoT Hub.
-- To configure the Azure IoT Explorer, look into the steps mentioned [here](https://github.com/Azure/azure-iot-explorer)
 
 
 That's it! You have successfully run the Python code on your Raspberry Pi to send simple message to your Azure IoT Hub device.
